@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wangban.yzbbanban.picture_test_40.ui.DetialActivity">
+
+    <RelativeLayout
+        android:background="@color/dark_black"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/tv_beauty_pic_name"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="还未写详细代码，详细功能尽情期待"
+            android:textColor="@color/light_red"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            />
+        <Button
+            android:layout_alignParentLeft="true"
+            android:id="@+id/btn_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/selector"
+            />
+
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/gv_detial"
+        android:numColumns="1"
+        android:verticalSpacing="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></GridView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="代码还没有写完呢,啦啦啦啦啦"
+         android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="#000000"
+        />
+</RelativeLayout>
